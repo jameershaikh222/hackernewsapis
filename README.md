@@ -61,7 +61,7 @@ http://localhost:8081/
     http://localhost:8081
     ```
 
-    You should see a message indicating that the API is running successfully.
+    You should see a message indicating that the Welcome to Hacker News APIS..!
 
 7. To stop the container, use the `docker-compose down` command:
 
