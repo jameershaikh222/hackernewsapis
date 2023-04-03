@@ -16,6 +16,11 @@ public class HackernewsController {
     @Autowired
     HackernewsService hackernewsService;
 
+    @GetMapping("/")
+    public String getHome() {
+        return "Welcome to Hacker News APIS..!";
+    }
+
     @GetMapping("/top-stories")
     public List<TopStoriesDetails> getTop10Stories() {
         return hackernewsService.getTopStories(10);

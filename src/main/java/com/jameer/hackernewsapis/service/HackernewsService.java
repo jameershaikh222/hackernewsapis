@@ -19,7 +19,6 @@ import com.jameer.hackernewsapis.repository.StoriesRepository;
 @Service
 public class HackernewsService {
     private static final String GET_TOP_STORIES_LIST_URL = "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty";
-    // private static final String GET_STORY_DETAILS_URL = "https://hacker-news.firebaseio.com/v0/item/";
     private static final String GET_STORY_AND_COMMENT_URL = "https://hacker-news.firebaseio.com/v0/item/%s.json?print=pretty";
 
     @Autowired 
