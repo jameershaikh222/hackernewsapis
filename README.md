@@ -21,7 +21,7 @@ http://localhost:8081/
 
 * **URL:** `/comments/{storyId}`
 * **Method:** `GET`
-* **Description:** Returns a list of Comment objects containing comment text and username related to a particular story.
+* **Description:** Returns a list of Comment objects containing username and comment text related to a particular story by passing storyId.
 
 
 ### 3. Retrieve All Past Stories
@@ -31,11 +31,11 @@ http://localhost:8081/
 * **Description:** Returns all stories previously served by top-stories.
 
 
-### 4. How to run Hacker News API using Docker
+### 4. How to run Hacker News APIS using Docker
 
 
 1. Make sure you have Docker installed on your machine. 
-2. Clone the GitHub repository for the Hacker News API to your local machine:
+2. Clone the GitHub repository for the Hacker News APIS to your local machine:
 
     ```bash
         https://github.com/jameershaikh222/hackernewsapis.git
@@ -53,9 +53,9 @@ http://localhost:8081/
     docker-compose up
     ```
 
-    This command will start the container and run the Hacker News API on `localhost:8081`.
+    This command will start the container and run the Hacker News APIS on `localhost:8081`.
 
-6. You can now access the API by opening a web browser and entering the following URL:
+6. You can now access the APIS by opening a web browser and entering the following URL:
 
     ```arduino
     http://localhost:8081
